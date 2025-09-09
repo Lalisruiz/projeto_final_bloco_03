@@ -1,10 +1,12 @@
-
-
 const categorias = [
-  { id: 1, nome: 'Medicamentos' },
-  { id: 2, nome: 'Dermocosméticos' },
-  { id: 3, nome: 'Infantil' },
-  { id: 4, nome: 'Saúde Natural' },
+  { id: 1, nome: 'Medicamentos sem receita' },
+  { id: 2, nome: 'Medicamentos sob receita' },
+  { id: 3, nome: 'Dermocosméticos' },
+  { id: 4, nome: 'Vitaminas e Suplementos' },
+  { id: 5, nome: 'Higiene Pessoal' },
+  { id: 6, nome: 'Primeiros Socorros' },
+  { id: 7, nome: 'Saúde Sexual' },
+  { id: 8, nome: 'Saúde e higiene Infantil' }
 ];
 
 const ListaCategoria: React.FC = () => {
